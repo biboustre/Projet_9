@@ -6,6 +6,8 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -90,9 +92,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* #gallery {
+		min-height: 100vh;
+} */
 .title{
 	text-align: center;
 	padding-block: 2em;
