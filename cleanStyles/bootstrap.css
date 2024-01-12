@@ -71,6 +71,10 @@
   }
 }
 
+
+
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -578,6 +582,40 @@ textarea {
 .py-3 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+@media (min-width: 1200px) {
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+.col-xl-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1055;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
 }
 
 /* rtl:begin:remove */

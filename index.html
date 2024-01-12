@@ -4,8 +4,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./cleanStyles/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
@@ -46,18 +44,23 @@
 			},
 		  }
 		</script>
+		<style>
+			.nav-pills .nav-link.active {
+			  color: black;
+			}
+		</style>
 </head>
 <body>
 <header>
 	<section class="top-header">
-		<h1 class="name">Nina Carducci</h1>
+		<h1 class="name">Nina Carducci</h1> 
 		<nav class="nav">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="logo instagram"></a></li>
 			</ul>
 		</nav>
 	</section>
@@ -70,15 +73,15 @@
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
 			<div class="carousel-inner">
-				<div class="carousel-item active">
+				<picture class="carousel-item active">
 					<img src="./assets/images/slider/photo-pieton.webp" class="d-block w-100" alt="homme sur un passage piéton">
-				</div>
-				<div class="carousel-item">
+				</picture>
+				<picture class="carousel-item">
 					<img src="./assets/images/slider/photo-foule.webp" class="d-block w-100" alt="Groupe de personnes">
-				</div>
-				<div class="carousel-item">
+				</picture>
+				<picture class="carousel-item">
 					<img src="./assets/images/slider/appareil-photo-canon-slider.webp" class="d-block w-100" alt="appareil photo">
-				</div>
+				</picture>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,30 +97,30 @@
 
 <main>
 	<article id="about">
-		<section class="picture left">
+		<picture class="picture left">
 			<img src="./assets/images/nina2.webp" alt="photo de la photographe">
-		</section>
+		</picture>
 		<section id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
-			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
-			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Saisir un moment, une émotion, une situation, un endroit, une lumière, voilà ce qui me fait vibrer.</h3>
+			<p>Figer nos souvenirs au travers de photographies pour savourer avec les personnes qui sont importantes à nos yeux, ou les partager.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</section>
 	</article>
 	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
-			<div class="gallery" style="display: none">
+			<picture class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/homme-avec-micro.webp" alt="un homme avec un micro"/>
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/homme-au-travail.webp" alt="un homme qui travail"/>
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-au-travail.webp" alt="une femme au travail"/>
 				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-homme.webp" alt="Homme fermant les yeux"/>
 				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-femme.webp" alt="Femme contre un grillage"/>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/multicolore-fumée.jpg" alt="Mélange de lumière sur de la fumée"/>
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/multicolore-fumée.webp" alt="Mélange de lumière sur de la fumée"/>
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-sur-ordinateur.webp" alt="Femme qui travail sur ordinateur"/>
-				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-canon.webp" alt="Appareil photo"/>
+				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-canon.webp" alt="Appareil photo canon"/>
 				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-vintage.webp" alt="Appareil photo"/>
-			</div>
+			</picture>
 		</div>
 		<article class="quote">
 			<figure>
@@ -189,9 +192,9 @@
 				<input type="submit" value="Envoyer"/>
 			</form>
 		</div>
-		<div class="picture right">
-			<img src="./assets/images/camera.png" alt="image de caméra">
-		</div>
+		<picture class="picture right">
+			<img src="./assets/images/camera.webp" alt="image de caméra">
+		</picture>
 	</section>
 </footer>
 </body>
