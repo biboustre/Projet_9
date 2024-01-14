@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<title>Portfolio Nina Carducci</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./cleanStyles/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" aria-disabled="true" href="./cleanStyles/output.min.css">
+	<link rel="stylesheet" href="./assets/output.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
 	<meta property="og:title" content="Photographe professionnel" >
 	<meta property="og:type" content="siteweb" >
 	<meta property="og:image" content="http://127.0.0.1:5500/nina2.webp" >
@@ -19,9 +19,12 @@
 	<meta name="twitter:description" content="Découvrez le portfolio d'une photographe professionnel" >
 	<meta name="twitter:image" content="http://127.0.0.1:5500/nina2.webp" >
 	<meta name="twitter:url" content="http://127.0.0.1:5500" >
-	<title>Portfolio Nina Carducci</title>
 	<meta name="description" content="Découvrez le portfolio d'une photographe professionnel">
-	<script type="application/ld+json">
+	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script defer src="./assets/output.min.js"></script>
+	<script defer src="./assets/scripts.js"></script>
+	<script defer src="./assets/bootstrap/output.min.js"></script>
+	<script defer type="application/ld+json">
 		{
 			"@context": "http://schema.org",
 			"@type": "LocalBusiness",
@@ -34,16 +37,16 @@
 			  "addressLocality": "Bordeaux",
 			  "addressRegion": "FR-33",
 			  "postalCode": "33200",
-			  "addressCountry": "France"
+			  "addressCountry": "FR"
 			},
 			"telephone": "05 56 67 78 89",
 			"openingHours": "Mo-Fr 10:00-19:00",
 			"image": {
 			  "@type": "ImageObject",
 			  "url": "https://stanislas-mainguy.github.io/OpenClassrooms_Projet9/assets/images/nina-largwebpe.webp"
-			},
-		  }
-		</script>
+			}
+		}
+	</script>
 		<style>
 			.nav-pills .nav-link.active {
 			  color: black;
@@ -104,22 +107,22 @@
 			<h2 class="about-me__title">A propos de moi</h2>
 			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Saisir un moment, une émotion, une situation, un endroit, une lumière, voilà ce qui me fait vibrer.</h3>
 			<p>Figer nos souvenirs au travers de photographies pour savourer avec les personnes qui sont importantes à nos yeux, ou les partager.
-				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Afin que vous puissiez vous voir à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</section>
 	</article>
 	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<picture class="gallery" style="display: none">
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/homme-avec-micro.webp" alt="un homme avec un micro"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/homme-au-travail.webp" alt="un homme qui travail"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-au-travail.webp" alt="une femme au travail"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-homme.webp" alt="Homme fermant les yeux"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-femme.webp" alt="Femme contre un grillage"/>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/multicolore-fumée.webp" alt="Mélange de lumière sur de la fumée"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-sur-ordinateur.webp" alt="Femme qui travail sur ordinateur"/>
-				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-canon.webp" alt="Appareil photo canon"/>
-				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-vintage.webp" alt="Appareil photo"/>
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/homme-avec-micro.webp" alt="un homme avec un micro">
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/homme-au-travail.webp" alt="un homme qui travail">
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-au-travail.webp" alt="une femme au travail">
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-homme.webp" alt="Homme fermant les yeux">
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-femme.webp" alt="Femme contre un grillage">
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/multicolore-fumée.webp" alt="Mélange de lumière sur de la fumée">
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-sur-ordinateur.webp" alt="Femme qui travail sur ordinateur">
+				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-canon.webp" alt="Appareil photo canon">
+				<img data-gallery-tag="Appareil" class="gallery-item" src="./assets/images/gallery/appareils/appareil-photo-vintage.webp" alt="Appareil photo">
 			</picture>
 		</div>
 		<article class="quote">
